@@ -1,7 +1,8 @@
 import axios from 'axios';
 
 // API Configuration for Backend Connection
-const API_BASE_URL = 'https://shop-d9kr.onrender.com';
+// Use the environment variable for the base URL
+const API_BASE_URL = import.meta.env.VITE_API_URL || '/api';
 
 // Create a configured axios instance
 const api = axios.create({

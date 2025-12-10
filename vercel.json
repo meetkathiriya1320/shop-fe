@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "https://shop-d9kr.onrender.com/api/$1"
+    }
+  ]
+}
